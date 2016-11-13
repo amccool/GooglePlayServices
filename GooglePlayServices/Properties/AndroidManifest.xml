@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="GooglePlayServicesTest.GooglePlayServicesTest">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="GooglePlayServicesTest.GooglePlayServicesTest" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21" />
 	<application android:label="GooglePlayServicesTest" android:icon="@drawable/icon">
 		<!-- Put your Google Maps V2 API Key here. This key will not work for you.-->
@@ -19,4 +19,6 @@
 	<!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
 </manifest>
